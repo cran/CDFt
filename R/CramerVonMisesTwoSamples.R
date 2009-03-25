@@ -21,7 +21,8 @@ CramerVonMisesTwoSamples <- function(S1, S2){
 
   U = N*somN + M*somM
 
-  CvM = (U / (N*M*(N+M))) - ((4*M*N - 1)/(6*(M+N)))
+  #CvM = (U / (N*M*(N+M))) - ((4*M*N - 1)/(6*(M+N)))
+  CvM = (  (U / (N*M)) / (N+M) ) - ((4*M*N - 1)/(6*(M+N)))
 
   return(CvM)
 

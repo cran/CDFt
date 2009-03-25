@@ -1,5 +1,5 @@
 Package: CDFt
-Version: 1.0
+Version: 1.0.1
 Date: 2009-25-03
 Title: Statistical downscaling through CDF-transform
 Author: Mathieu Vrac <mathieu.vrac@lsce.ipsl.fr> and Paul-Antoine
@@ -11,6 +11,6 @@ Description: This package proposes a statistical downscaling method for
         computation of the Cram\`er-von Mises statistics U, and the
         Kolmogorov-Smirnov statistics KS.
 License: GPL (>= 2)
-Packaged: Tue Jun 2 15:59:08 2009; mvrac
+Packaged: 2012-10-29 13:13:09 UTC; ripley
 Repository: CRAN
-Date/Publication: 2009-06-02 17:15:34
+Date/Publication: 2012-10-29 13:13:38
