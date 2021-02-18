@@ -1,7 +1,7 @@
 \name{CDFt}
 \title{Downscaling or bias correction of CDF through CDF-transformation}
 \usage{
-CDFt(ObsRp, DataGp, DataGf, npas=100, dev=2)
+CDFt(ObsRp, DataGp, DataGf, npas=1000, dev=2)
 }
 \alias{CDFt}
 \description{
@@ -13,7 +13,7 @@ CDFt(ObsRp, DataGp, DataGf, npas=100, dev=2)
   \item{ObsRp}{Observed time series of the variable (e.g., temperature) at the local scale to be used for estimation of the calibration local-scale CDF.}
   \item{DataGp}{Large-scale time series to be used for estimation of the calibration large-scale CDF.}
   \item{DataGf}{Large-scale time series to be used for estimation of the large-scale CDF to be downscaled.}
-  \item{npas}{Number of "cuts" for which quantiles will be empirically estimated (Default is 100).}
+  \item{npas}{Number of "cuts" for which quantiles will be empirically estimated (Default is 1000).}
   \item{dev}{Coefficient of development (of the difference between the mean of the large-scale historical data and the mean of the large-scale future data to be downscaled). This development is used to extend range of data on which the quantiles will be calculated for the CDF to be downscaled (Default is 2).}
 }
 \value{

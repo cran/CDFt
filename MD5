@@ -1,8 +1,8 @@
-1cf5e4bc3da8cccbc2c874525ec82ba5 *DESCRIPTION
-9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
-ab9ecfe9c57cf3064b8d337877abe3c0 *R/CDFt.R
+1cff39212af3d9ede98ba6d627aec7ed *DESCRIPTION
+55f125cd3b9233b729bd4b9589202834 *NAMESPACE
+bdeeb27b66f1285d808d4f4b6f1d58f1 *R/CDFt.R
 2a6657292eecf2f25228bf777e52c723 *R/CramerVonMisesTwoSamples.R
 2e3c62d3b1c6715d7ad1b947fdb97717 *R/KolmogorovSmirnov.R
-c55e50aec037896a2ca9407d8b47581a *man/CDFt.Rd
-5c0bb8a4bd575ff555b29f5811e373ec *man/CramerVonMisesTwoSamples.Rd
-bbb2c03a7406e9118c579dccda31e407 *man/KolmogorovSmirnov.Rd
+b0fc679271abdc5caaede520417c5d8c *man/CDFt.Rd
+b5f3c272f53951c957da020822d28bf2 *man/CramerVonMisesTwoSamples.Rd
+22de356fffaa7993ff858caea9799962 *man/KolmogorovSmirnov.Rd

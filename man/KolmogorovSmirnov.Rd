@@ -23,5 +23,10 @@ KolmogorovSmirnov(S1, S2)
 P.-A. Michelangeli, M. Vrac, H. Loukos. "Probabilistic downscaling approaches: Application to wind cumulative distribution functions", Geophys. Res. Lett.,  doi:10.1029/2009GL038401, 2009.}
 \author{P.-A. Michelangeli (pam@climpact.com) and M. Vrac (mathieu.vrac@lsce.ipsl.fr)}
 \seealso{\code{\link{CramerVonMisesTwoSamples}},\code{\link{CDFt}} }
-\examples{}
+\examples{
+# generate random values (for the example)
+S1 = rnorm(100)
+S2 = rnorm(100)
+KolmogorovSmirnov(S1, S2)
+}
 \keyword{univar}

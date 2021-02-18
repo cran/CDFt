@@ -3,3 +3,5 @@
 
 # Export all names
 exportPattern(".")
+importFrom("stats", "approx", "ecdf", "quantile", "coef", "runif", "var")
+
